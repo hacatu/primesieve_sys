@@ -1,18 +1,18 @@
 [package]
-name = "primesieve_sys"
+name = "primesieve_wrapper"
 version = "0.1.0"
 authors = ["hacatu"]
 edition = "2024"
 description = "Wrapper for Primesieve C library"
-repository = "https://github.com/hacatu/primesieve_sys"
+repository = "https://github.com/hacatu/primesieve_wrapper"
 license = "BSD-2-Clause"
 keywords = ["number-theory", "math", "prime"]
 categories = ["api-bindings", "external-ffi-bindings", "mathematics"]
 links = "primesieve"
 
 [lib]
-name = "primesieve_sys"
-path = "src/primesieve_sys.rs"
+name = "primesieve_wrapper"
+path = "src/primesieve_wrapper.rs"
 
 [dependencies]
 libc = "0.2.154"
